@@ -11,10 +11,6 @@ use pocketmine\player\Player;
 
 class Main extends PluginBase{
 
-    public function onEnable(): void {
-        $this->getLogger()->info("GamemodeJava enabled");
-    }
-
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool {
         if ($sender instanceof Player && $sender->hasPermission("gm.use")) {
             switch ($command->getName()) {
