@@ -1,0 +1,14 @@
+---
+name: GamemodeJava
+version: 1.0.1
+main: gmjava\GamemodeJava\Main
+api: 5.19.0
+commands:
+  gm:
+    description: Changes the player to a specific game mode
+    permission: gm.use
+permissions:
+  gm.use:
+    description: Allows the player to change gamemode
+    default: op
+...
