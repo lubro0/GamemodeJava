@@ -11,7 +11,5 @@ permissions:
   gm.use:
     description: Allows the player to change gamemode
     default: op
-dependencies:
-  - name: AntiBadPackets
-    version: 1.0.3
-    required: true
+depends:
+  AntiBadPackets: 1.0.3
