@@ -1,5 +1,5 @@
 name: GamemodeJava
-version: 1.0.1
+version: 1.0.2
 main: gmjava\GamemodeJava\Main
 api: 5.19.0
 src-namespace-prefix: gmjava\GamemodeJava
